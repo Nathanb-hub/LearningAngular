@@ -1,0 +1,19 @@
+<div id="content">
+    <div>
+        <div >
+            <audio #player controls autoplay playsinline></audio>
+        </div>
+        <div>
+            <button  color="primary" class="num" (click)="this.launchRadio(0)" [disabled]="this.radioLaunched[0]">Radio Contact</button>
+        </div>
+        <div>
+            <button  color="primary" class="num" (click)="this.launchRadio(1)" [disabled]="this.radioLaunched[1]">Classic 21</button>
+        </div>
+        <div>
+            <button  color="primary" class="num" (click)="this.launchRadio(2)" [disabled]="this.radioLaunched[2]">NRJ</button>
+        </div>
+    </div>
+</div>
+
+
+

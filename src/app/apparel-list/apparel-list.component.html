@@ -1,0 +1,5 @@
+<!-- <app-appareil [appareil] = "myApparel" *ngIf="myApparel.price < 1000"></app-appareil>
+<app-appareil [appareil] = "my2Apparel" *ngIf="my2Apparel.price < 1000"></app-appareil>
+<app-appareil [appareil] = "my3Apparel" *ngIf="my3Apparel.price < 1000"></app-appareil> -->
+
+<app-appareil *ngFor="let apparel of myApparels"  [appareil]="apparel"></app-appareil>

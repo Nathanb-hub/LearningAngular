@@ -1,0 +1,11 @@
+.apparel{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid lightgrey;
+    box-shadow: 7px 3px 3px lightgray;
+    padding: 20px;
+    margin-bottom: 25px;
+}
